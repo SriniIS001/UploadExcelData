@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+	<InsertBulkUploadData>
+		<![CDATA[
+		INSERT INTO sample.data
+		(ID, Name, Dept, Loc) 
+		VALUES
+		(@ID, @Name, @Dept, @Loc);
+		]]>
+	</InsertBulkUploadData>
+</Queries>
